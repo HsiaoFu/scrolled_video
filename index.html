@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Scrolled Video</title>
+</head>
+<body>
+    <section style="height: 200vh; background-color: rgba(0, 0, 0, 0);"></section>
+    <div class="container-fluid" style="position: relative;">
+        <video id="video" src="https://hsiaofu.github.io/sticky_top/IMG_3542.mp4" style="position: absolute; min-width: 100%; min-height: 100%; width: auto; height: auto; z-index: -1; top: -20vh;" muted></video>
+        <div class="overlay" style="background-color: rgba(0, 0, 0, 0.7);">
+            <h1>Touching sentence 1: ohohoh</h1>
+        </div>
+        <div class="overlay" style="top: 100vh; background-color: rgba(0, 0, 0, 0.5);">
+            <h1>Touching sentence 2: ohohoh</h1>
+        </div>
+        <div class="overlay" style="top: 150vh; background-color: rgba(0, 0, 0, 0.3);">
+            <h1>Touching sentence 3: ohohoh</h1>
+        </div>
+    </div>
+    <!-- 新的中间section -->
+    <section style="height: 200vh; background-color: rgba(0, 0, 0, 0);"></section>
+    <section style="height: 200vh; background-color: rgba(0, 0, 0, 0);"></section>
+
+    <!-- 第二个视频 -->
+    <div class="container-fluid" style="position: relative;">
+        <video id="video2" src="https://hsiaofu.github.io/sticky_top/001.mp4" style="position: absolute; min-width: 100%; min-height: 100%; width: auto; height: auto; z-index: -1; top: -20vh;" muted></video>
+        <div class="overlay" style="background-color: rgba(0, 0, 0, 0.7);">
+            <h1>Touching sentence 1: ohohoh</h1>
+        </div>
+        <div class="overlay" style="top: 100vh; background-color: rgba(0, 0, 0, 0.5);">
+            <h1>Touching sentence 2: ohohoh</h1>
+        </div>
+        <div class="overlay" style="top: 150vh; background-color: rgba(0, 0, 0, 0.5);">
+            <h1>Touching sentence 3: ohohoh</h1>
+    </div>
+    </div>
+    <section style="height: 200vh; background-color: rgba(0, 0, 0, 0);"></section>
+    <section style="height: 200vh; background-color: rgba(0, 0, 0, 0);"></section>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
